@@ -1,0 +1,20 @@
+{
+  "scriptFile": "__init__.py",
+  "disabled": false,
+  "bindings": [
+    {
+      "name": "blobin",
+      "path": "<blob container>/{blobname}.csv",
+      "connection": "<Storage Connection Profile>",
+      "direction": "in",
+      "type": "blobTrigger"
+    },
+    {
+      "name": "blobout",
+      "direction": "out",
+      "type": "blob",
+      "path": "<blob container>/gdc_ioc.json",
+      "connection": "<Storage Connection Profile>"
+    }
+  ]
+}
