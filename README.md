@@ -1,7 +1,8 @@
+![Logo](csv2gdc_logo.png)
 # cp_az_csv2gdc
 Azure Function CSV2GDC Conversion
 
-# BlobTrigger - Python
+## BlobTrigger - Python
 
 The `BlobTrigger` makes it incredibly easy to react to new Blobs inside of Azure Blob Storage. This sample demonstrates a simple use case of processing data from a given Blob using Python.
 
@@ -21,3 +22,6 @@ Azure Functions triggers and bindings concepts
 Example - azure-functions-python-samples
 
 `https://github.com/yokawasa/azure-functions-python-samples/tree/master/v2functions/blob-trigger-watermark-blob-out-binding`
+
+## Development Environment
+Python 3.9; VS Code 1.69.1;
